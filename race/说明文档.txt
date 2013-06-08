@@ -1,0 +1,23 @@
+﻿#  本文档最后编辑时间2009-10-03
+#  程序由910971030@qq.com编写
+#  当前版本为0.1
+#  主页地址http://code.google.com/p/pythontools/
+
+Q01:如何启动程序？
+A01:  (1)Windows用户下载源码运行，
+      但是需要安装Python和wxPython；
+      (2)Linux用户请直接下载源码，
+      然后在终端中输入：python SSQPython.py。
+      Linux用户需安装wxPython。
+      ubuntu 7.10用户请执行：sudo apt-get install python-wxgtk2.8，
+      其他发行版本Linux请参考相应官方说明。
+
+Q02:注意问题：
+       本测试软件为了公平，禁用了Ctrl+V（粘贴）、Ctrl+Z（取消）和鼠标右键--》粘贴功能，当按下Ctrl+V、Ctrl+Z键或鼠标右键时，程序将自动清空所有输入的内容，倒计时不停止，输入速度归零。
+      
+Q03:如何获得帮助？
+A03:帮助菜单下有“说明”和“关于”；
+      “说明”即查看本文档。
+      当然也欢迎直接给我发信：
+      910971030@qq.com
+

@@ -1,0 +1,26 @@
+'''
+Created on 2009-8-31
+
+@author: selfimpr
+'''
+class HelloWorld(object):
+    version = 0.1
+    def __init__(self, name="John Doe"):
+        """constructor"""
+        self.name = name #class instance (data) attribute
+        print 'Create a class instance for', name
+    def showname(self):
+        """display instance attribute and class name"""
+        print 'Your name is ', self.name
+        print 'My name is ', self.__class__.__name__
+    def showver(self):
+        """display class(static) attribute"""
+        print self.version # references HelloWorld.version
+        print dir(self)
+    def addMe2Me(self, x): #does not use 'self'
+        """apply + operation to argument"""
+        return x + x
+
+obj = HelloWorld("Hello") # create a class instance for John Doe
+obj.showname()
+obj.showver()
